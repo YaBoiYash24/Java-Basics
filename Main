@@ -1,0 +1,643 @@
+import java.util.Scanner;
+public class Main {
+
+   static void Q1()
+   {
+       System.out.println(" --- --- --- QUESTION 1 --- --- --- ");
+       // #1, syntax error is when the lines of code you have writen is incorrect so if your printing you should do System.out.println but a syntax error would happen if you were to do system.out.print.
+
+       // compile time error is when the computer has a problem translating the file into a class file. so if you were trying to print a string but you had a syntax error in your code it would not compile. for example, string str = "yash" and you were trying to print the string but you had a syntax error so the computer would not compile.
+
+       // logic error is when the logic of your code doesn't work right so the computer doesn't know what to do. For example, if you say yash = if 4 == 6, print(True), it would say there is a logic error since 4 is not equal to 6.
+
+       // runtime error is when there is an error while your code is being ran, this can happen if you are trying to access something that is not there.
+       System.out.println(" --- --- --- QUESTION 1 END --- --- ");
+   }
+
+   static void Q2()
+   {
+       System.out.println(" --- --- --- QUESTION 2 --- --- --- ");
+       // #2 a class can hold multiple attributes that can be used in objects but it can't hold objects.
+       System.out.println(" --- --- --- QUESTION 2 END --- --- ");
+   }
+
+   static void Q3()
+   {
+       System.out.println(" --- --- --- QUESTION 3 --- --- --- ");
+       // #3
+       System.out.println("Kratos");
+       System.out.println("7632 Bronze Road");
+       System.out.println("Boston, Y6Y 6U1");
+
+       System.out.println(" --- --- --- QUESTION 3 END --- --- ");
+   }
+
+   static void Q4()
+   {
+       System.out.println(" --- --- --- QUESTION 4 --- --- --- ");
+       // #4
+       int far = 50;
+       System.out.println("We started with " + far + " farenheit and ended up with" +
+               (far - 32)*1.8 + "degrees celsius");
+
+       System.out.println(" --- --- --- QUESTION 4 END --- --- ");
+   }
+
+   static void Q5()
+   {
+       System.out.println(" --- --- --- QUESTION 5 --- --- --- ");
+       // #5
+       int meter = 70;
+       System.out.println("we started with " + meter + " meters and ended up with " + (meter * 1.094) + " yards");
+       System.out.println(" --- --- --- QUESTION 5 END --- --- ");
+   }
+
+   static void Q6()
+   {
+       System.out.println(" --- --- --- QUESTION 6 --- --- --- ");
+       // #6
+       int c_inches = 100;
+       System.out.println("we started with " + c_inches + " cubic inches and ended up with " + (c_inches)*Math.pow(2.54, 3) + " Cubic centimeters");
+       System.out.println(" --- --- --- QUESTION 6 END --- --- ");
+   }
+
+   static void Q7() {
+       System.out.println(" --- --- --- QUESTION 7 --- --- --- ");
+       // # 7
+       int n = 1000;
+       System.out.println(n*(n+1)/2);
+       System.out.println(" --- --- --- QUESTION 7 END --- --- ");
+   }
+
+   public static int add() {
+       {
+           System.out.println(" --- --- --- QUESTION 8 --- --- --- ");
+           // # 8
+           int x = 6;
+           int y = 3;
+           int sum = (x + y);
+           System.out.println(sum);
+           System.out.println(" --- --- --- QUESTION 8 END --- --- ");;
+           return sum;
+       }
+   }
+
+   public static void Q9()
+   {
+       System.out.println(" --- --- --- QUESTION 9 --- --- --- ");
+       // #9 is the same as 8
+       System.out.println(" --- --- --- QUESTION 9 END --- --- ");
+   }
+
+   public static int subtract()
+   {
+       System.out.println(" --- --- --- QUESTION 10 --- --- --- ");
+       // # 10
+       int x = 10;
+       int y = 4;
+       int sum = (x - y);
+       System.out.println(sum);
+       System.out.println(" --- --- --- QUESTION 10 END --- --- ");
+       return sum;
+   }
+
+   public static int divide()
+   {
+       System.out.println(" --- --- --- QUESTION 11 --- --- --- ");
+       // # 11
+       int x = 15;
+       int y = 5;
+       int sum = (x/y);
+       System.out.println(sum);
+       System.out.println(" --- --- --- QUESTION 11 END --- --- ");
+       return sum;
+   }
+
+   public static void repeat_hello()
+   {
+       System.out.println(" --- --- --- QUESTION 12 --- --- --- ");
+       // # 12
+       System.out.println(" --- --- --- QUESTION 12 END --- --- ");
+   }
+
+   public static String print(String text)
+   {
+       System.out.println(" --- --- --- QUESTION 13 --- --- --- ");
+       // # 13
+       System.out.println(text);
+       System.out.println(" --- --- --- QUESTION 13 END --- --- ");
+       return text;
+   }
+
+   static void Q14()
+   {
+       System.out.println(" --- --- --- QUESTION 14 --- --- --- ");
+       // #14
+       int[] myArray = {1, 2, 3, 4};
+       System.out.println(myArray[0] + myArray[1] + myArray[2] + myArray[3]);
+       System.out.println(" --- --- --- QUESTION 14 END --- --- ");
+   }
+
+   static void Q15()
+   {
+       System.out.println(" --- --- --- QUESTION 15 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 15 END --- --- ");
+   }
+
+   public static boolean is_even()
+   {
+       System.out.println(" --- --- --- QUESTION 16 --- --- --- ");
+       // # 16
+       int myInt = 17;
+       if (myInt == 15) {
+           System.out.println(true);
+           return true;
+       } else {
+           System.out.println(false);
+           System.out.println(" --- --- --- QUESTION 16 END --- --- ");
+           return false;
+       }
+   }
+
+   static void absolute_value(int number)
+   {
+       System.out.println(" --- --- --- QUESTION 17 --- --- --- ");
+       // #17
+       if (number >= 0);
+       System.out.println(number);
+       if (number < 0);
+       System.out.println(number*-1);
+       System.out.println(" --- --- --- QUESTION 17 END --- --- ");
+   }
+
+   static void maximum()
+   {
+       System.out.println(" --- --- --- QUESTION 18 --- --- --- ");
+       // # 18
+       int x = 99;
+       int y = 8;
+       if (y > x) {
+           System.out.println("Y is the bigger number");
+       } else {
+           System.out.println("X is the bigger number");
+       }
+       System.out.println(" --- --- --- QUESTION 18 END --- --- ");
+   }
+
+   static void circle_area()
+   {
+       System.out.println(" --- --- --- QUESTION 19 --- --- --- ");
+       // # 19
+       int radius = 7;
+       System.out.println((3.14)*Math.pow(radius, 2));
+       System.out.println(" --- --- --- QUESTION 19 END --- --- ");
+   }
+
+   static void circumference()
+   {
+       System.out.println(" --- --- --- QUESTION 20 --- --- --- ");
+       // # 20
+       int radius = 7;
+       System.out.println(2*3.14*radius);
+       System.out.println(" --- --- --- QUESTION 20 END --- --- ");
+   }
+
+   static void square_area()
+   {
+       System.out.println(" --- --- --- QUESTION 21 --- --- --- ");
+       // # 21
+       int sideLength = 5;
+       System.out.println(Math.pow(sideLength, 2));
+       System.out.println(" --- --- --- QUESTION 21 END --- --- ");
+   }
+
+   static void square_perimeter()
+   {
+       System.out.println(" --- --- --- QUESTION 22 --- --- --- ");
+        // # 22
+       int sideLength = 5;
+       System.out.println(sideLength*4);
+       System.out.println(" --- --- --- QUESTION 22 END --- --- ");
+   }
+
+   static void rectangle_area()
+   {
+       System.out.println(" --- --- --- QUESTION 23 --- --- --- ");
+       // # 23
+       int width = 5;
+       int length = 7;
+       System.out.println(width*length);
+       System.out.println(" --- --- --- QUESTION 23 END --- --- ");
+   }
+
+   static void rectangle_perimeter()
+   {
+       System.out.println(" --- --- --- QUESTION 24 --- --- --- ");
+       // # 24
+       int width = 8;
+       int length = 9;
+       System.out.println((2 * width) + (2 * length));
+       System.out.println(" --- --- --- QUESTION 24 END --- --- ");
+   }
+
+   static void sphere_area()
+   {
+       System.out.println(" --- --- --- QUESTION 25 --- --- --- ");
+       // # 25
+       int radius = 6;
+       System.out.println(3.14*Math.pow(radius, 2));
+       System.out.println(" --- --- --- QUESTION 25 END --- --- ");
+   }
+
+   static void sphere_volume ()
+   {
+       System.out.println(" --- --- --- QUESTION 26 --- --- --- ");
+       // # 26
+       int radius = 6;
+       System.out.println((4/3)*3.14*Math.pow(radius, 3));
+       System.out.println(" --- --- --- QUESTION 26 END --- --- ");
+   }
+
+   static void Q27()
+   {
+       System.out.println(" --- --- --- QUESTION 27 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 27 END --- --- ");
+   }
+
+   static void Q28()
+   {
+       System.out.println(" --- --- --- QUESTION 28 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 28 END --- --- ");
+   }
+
+   static void Q29()
+   {
+       System.out.println(" --- --- --- QUESTION 29 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 29 END --- --- ");
+   }
+
+   static void Q30()
+   {
+       System.out.println(" --- --- --- QUESTION 30 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 30 END --- --- ");
+   }
+
+   static void Q31()
+   {
+       System.out.println(" --- --- --- QUESTION 31 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 31 END --- --- ");
+   }
+
+   static void Q32()
+   {
+       System.out.println(" --- --- --- QUESTION 32 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 32 END --- --- ");
+   }
+
+   static void Q33()
+   {
+       System.out.println(" --- --- --- QUESTION 33 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 33 END --- --- ");
+   }
+
+   static void Q34()
+   {
+       System.out.println(" --- --- --- QUESTION 34 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 34 END --- --- ");
+   }
+
+   static void Q35()
+   {
+       System.out.println(" --- --- --- QUESTION 35 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 35 END --- --- ");
+   }
+
+   static void Q36()
+   {
+       System.out.println(" --- --- --- QUESTION 36 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 36 END --- --- ");
+   }
+
+   static void Q37()
+   {
+       System.out.println(" --- --- --- QUESTION 37 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 37 END --- --- ");
+   }
+
+   static void Q38()
+   {
+       System.out.println(" --- --- --- QUESTION 38 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 38 END --- --- ");
+   }
+
+   static void Q39()
+   {
+       System.out.println(" --- --- --- QUESTION 39 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 39 END --- --- ");
+   }
+
+   static void Q40()
+   {
+       System.out.println(" --- --- --- QUESTION 40 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 40 END --- --- ");
+   }
+
+   static void remove_all_whitespace()
+   {
+       System.out.println(" --- --- --- QUESTION 41 --- --- --- ");
+       // # 41
+       String str1 = "Hello my name is Yash";
+       for whitespace in str1;
+       System.out.println(str1);
+       System.out.println(" --- --- --- QUESTION 41 END --- --- ");
+   }
+
+   static void Q42()
+   {
+       System.out.println(" --- --- --- QUESTION 42 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 42 END --- --- ");
+   }
+
+   static void Q43()
+   {
+       System.out.println(" --- --- --- QUESTION 43 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 43 END --- --- ");
+   }
+
+   static void Q44()
+   {
+       System.out.println(" --- --- --- QUESTION 44 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 44 END --- --- ");
+   }
+
+   static void Q45()
+   {
+       System.out.println(" --- --- --- QUESTION 45 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 45 END --- --- ");
+   }
+
+   static void Q46()
+   {
+       System.out.println(" --- --- --- QUESTION 46 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 46 END --- --- ");
+   }
+
+   static void Q47()
+   {
+       System.out.println(" --- --- --- QUESTION 47 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 47 END --- --- ");
+   }
+
+   static void Q48()
+   {
+       System.out.println(" --- --- --- QUESTION 48 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 48 END --- --- ");
+   }
+
+   static void Q49()
+   {
+       System.out.println(" --- --- --- QUESTION 49 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 49 END --- --- ");
+   }
+
+   static void Q50()
+   {
+       System.out.println(" --- --- --- QUESTION 50 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 50 END --- --- ");
+   }
+
+   static void Q51()
+   {
+       System.out.println(" --- --- --- QUESTION 51 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 51 END --- --- ");
+   }
+
+   static void Q52()
+   {
+       System.out.println(" --- --- --- QUESTION 52 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 52 END --- --- ");
+   }
+
+   static void Q53()
+   {
+       System.out.println(" --- --- --- QUESTION 53 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 53 END --- --- ");
+   }
+
+   static void Q54()
+   {
+       System.out.println(" --- --- --- QUESTION 54 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 54 END --- --- ");
+   }
+
+   static void Q55()
+   {
+       System.out.println(" --- --- --- QUESTION 55 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 55 END --- --- ");
+   }
+
+   static void Q56()
+   {
+       System.out.println(" --- --- --- QUESTION 56 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 56 END --- --- ");
+   }
+
+   static void Q57()
+   {
+       System.out.println(" --- --- --- QUESTION 57 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 57 END --- --- ");
+   }
+
+   static void Q58()
+   {
+       System.out.println(" --- --- --- QUESTION 58 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 58 END --- --- ");
+   }
+
+   static void Q59()
+   {
+       System.out.println(" --- --- --- QUESTION 59 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 59 END --- --- ");
+   }
+
+   static void Q60()
+   {
+       System.out.println(" --- --- --- QUESTION 60 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 60 END --- --- ");
+   }
+
+   static void Q61()
+   {
+       System.out.println(" --- --- --- QUESTION 61 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 61 END --- --- ");
+   }
+
+   static void Q62()
+   {
+       System.out.println(" --- --- --- QUESTION 62 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 62 END --- --- ");
+   }
+
+   static void Q63()
+   {
+       System.out.println(" --- --- --- QUESTION 63 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 63 END --- --- ");
+   }
+
+   static void Q64()
+   {
+       System.out.println(" --- --- --- QUESTION 64 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 64 END --- --- ");
+   }
+
+   static void Q65()
+   {
+       System.out.println(" --- --- --- QUESTION 65 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 65 END --- --- ");
+   }
+
+   static void Q66()
+   {
+       System.out.println(" --- --- --- QUESTION 66 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 66 END --- --- ");
+   }
+
+   static void Q67()
+   {
+       System.out.println(" --- --- --- QUESTION 67 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 67 END --- --- ");
+   }
+
+   static void Q68()
+   {
+       System.out.println(" --- --- --- QUESTION 68 --- --- --- ");
+
+       System.out.println(" --- --- --- QUESTION 68 END --- --- ");
+   }
+
+   public static void main(String[] args) {
+       System.out.println("Yashvardhan Rana");
+       System.out.println("Workbook - Java Basics");
+
+       Q1();
+       Q2();
+       Q3();
+       Q4();
+       Q5();
+       Q6();
+       Q7();
+       add();
+       Q9();
+       subtract();
+       divide();
+       repeat_hello();
+       print("Hi");
+       Q14();
+       Q15();
+       is_even();
+       absolute_value(7);
+       maximum();
+       circle_area();
+       circumference();
+       square_area();
+       square_perimeter ();
+       rectangle_area();
+       rectangle_perimeter();
+       sphere_area ();
+       sphere_volume();
+       Q27();
+       Q28();
+       Q29();
+       Q30();
+       Q31();
+       Q32();
+       Q33();
+       Q34();
+       Q35();
+       Q36();
+       Q37();
+       Q38();
+       Q39();
+       Q40();
+       remove_all_whitespace();
+       Q42();
+       Q43();
+       Q44();
+       Q45();
+       Q46();
+       Q47();
+       Q48();
+       Q49();
+       Q50();
+       Q51();
+       Q52();
+       Q53();
+       Q54();
+       Q55();
+       Q56();
+       Q57();
+       Q58();
+       Q59();
+       Q60();
+       Q61();
+       Q62();
+       Q63();
+       Q64();
+       Q65();
+       Q66();
+       Q67();
+       Q68();
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
